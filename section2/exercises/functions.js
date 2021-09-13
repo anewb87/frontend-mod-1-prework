@@ -17,7 +17,7 @@ function printName() {
   console.log("Severus Snape");
 };
 
-printName(); 
+printName();
 printName();
 printName();
 printName();
@@ -26,6 +26,11 @@ printName();
 
 // YOU DO: Write a function named sayHello that logs to the console "Oh, Hello!"
 // Then, call the function 2 times.
+function sayHello() {
+  console.log("Oh, Hello!");
+}
+sayHello();
+sayHello();
 
 //-------------------
 // PART 2: Arguments and Parameters
@@ -34,19 +39,36 @@ printName();
 // YOU DO: Write a function named greetMe that takes an argument, a String, of a name.
 // The function should print out the value of the String that was passed in.
 // Then, call the function 3 times, each time, passing it a different name.
+function greetMe(name){
+  console.log("Welcome to Hogwarts, " + name + "!");
+}
+greetMe("Luna the Ravenclaw");
+greetMe("Neville the Gryffindor")
+greetMe("Cedric the Hufflepuff")
 
-
+//
 
 // YOU DO: Write a function that takes in 2 numbers as arguments, Numbers, and logs their sum
 // Then, call that function 3 times, each time, passing in 2 different Numbers.
+function sum(numberOne, numberTwo){
+  console.log(numberOne + numberTwo)
+}
 
+sum (1,4)
+sum (3,5)
+sum (8,2)
 
 
 // YOU DO🎈: Write a function that takes in two strings and prints a concatenation
 // of those two strings, for example the arguments could be ("Oscar", "Ruck") and
 // the end result might be "Oscar and Ruck are BFFS".  Then, call that function.
+function teammates(teammateOne, teammateTwo){
+  console.log(teammateOne + " and " + teammateTwo + " are on the same quidditch team.")
+}
 
-
+teammates("Harry Potter", "Oliver Wood")
+teammates("Fred", "George")
+teammates("Crabbe", "Goyle")
 
 //-------------------
 // PART 3: Naming is Hard
@@ -60,6 +82,7 @@ Look at the code you wrote for the previous YOU DO🎈 - what did you name the f
 What did you name each parameter, and why?
 
 EXPLAIN:
-
+I named the function teammates. I chose this name because the sentence I was creating was about two people who would be teammates (the subject of the sentence). I thought that teammates would be informational and to-the-point.
+The parameters I named teammateOne and teammateTwo. Not all that short, per se, but they point exactly to who each person is (who the arguments are).
 
 */
