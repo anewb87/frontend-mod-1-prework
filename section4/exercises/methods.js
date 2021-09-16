@@ -16,5 +16,14 @@ Make sure to run the file with node in your command line.
 var lunchOrder = {
   dish: "BLT",
   beverage: "iced tea",
-  tableNumber: 47
-}
+  tableNumber: 47,
+  prepare: function() {
+    console.log("Your order is currently being worked on.");
+  },
+  complete: function() {
+    console.log("Thank you for your order. It is now complete.")
+  }
+};
+console.log(lunchOrder.prepare());
+console.log(lunchOrder.complete())
+//They run. However, after each is run, the both have 'undefined' underneath them. Can't figure out why that might be.
