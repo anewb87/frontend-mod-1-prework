@@ -77,27 +77,27 @@ console.log("Is numberStudents less than or equal to 21?", numberStudents <= 21)
 
 console.log(4 < 9);
 //YOU DO: Explain.
-//The code is asking if 4 is less than 9. Since 4 IS less than 9, the comparison will evaluate to true.
+//The comparison operator used here is a 'less than' operator. The code is asking if 4 is less than 9. Since 4 IS less than 9, the comparison will evaluate to true.
 
 var books = 3;
 console.log(4 < books);
 // YOU DO: Explain.
-//The code is asking if 4 is less than the variable *book*'s value.
-//Since the value of the variable book is 3, and 4 is actually greater than 3, the comparison will evaulate to false.
+//The comparison operator used here, again, is the 'less than' operator. The code is asking if 4 is less than the value of the variable *book*.
+//Since the value of the variable *book* is 3, and since 4 is actually greater than 3, the comparison will evaulate to false.
 
 var friends = 6;
 var siblings = 2;
 console.log(friends > siblings);
 // YOU DO: Explain.
-//The code is asking if the variable *friends*'s value is greater than the variable *siblings*'s value.
-//Since the value of the variable friends is 6 and the value of the variable siblings is 2, then the comparison will evaluate to true: 6 > 2.
+//The comparison operator used here is the 'greater than' operator. The code is asking if the variable *friends*'s value is greater than the value of the variable *siblings*.
+//Since the value of the variable *friends* is 6 and the value of the variable *siblings* is 2, then the comparison will evaluate to true: 6 > 2.
 
 var attendees = 9;
 var meals = 8;
 console.log(attendees !== meals);
 // YOU DO: Explain.
-//The code is asking if the variable *attendees*'s value is not equal to the variable *meals*'s value.
-//Since the value of the variable attendees is 9 and the value of the varable meals is 8, the comparison will evaluate to true since 9 and 8 are not equal.
+//The comparison operator used here is the 'not equal to' operator. The code is asking if the variable *attendees*'s value is not equal to the value of the variable *meals*.
+//Since the value of the variable *attendees* is 9 and the value of the varable *meals* is 8, the comparison will evaluate to true since 9 and 8 are not equal.
 
 //-------------------
 // PART 3: Logical Operators
@@ -136,9 +136,9 @@ console.log(lovesToPlay && (age <=2))
 // ANSWER: My final line of code evaluated to true, as I had expected it to.
 //First, I personally had to decide the parameters (age) of a puppy. After a Google search, I decided that a puppy is a dog aged 2 and under.
 //I then wrote code asking if the dog loves to play AND if it's age is equal to or less than 2, since that's what I determined a puppy's age to be.
-//Since the value of the variable lovesToPlay is true AND the value of the variable age is 1, which is eqaul to or less than 2, both are true and the code evaluates to true.
+//Since the value of the variable lovesToPlay is true AND the value of the variable age is 1, which is equal to or less than 2, both are true and the code evaluates to true.
 //I honestly was not sure if this would evaluate becuase I am not yet familiar with the order of operations for code.
-//`console.log(lovesToPlay && age <=2)` and `console.log(lovesToPlay && (age <=2))` both evaluated to true and I can see why they both did. I've asked a friend and he said that both are correct and read correctly.
+//`console.log(lovesToPlay && age <=2)` and `console.log(lovesToPlay && (age <=2))` both evaluated to true, and I can see why they both did. I've asked a friend and he said that both are correct and read correctly.
 
 //-------------------
 // FINAL CHECK

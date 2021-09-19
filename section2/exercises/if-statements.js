@@ -41,13 +41,13 @@ Log to the console the appropriate age range
 (puppy, adult, elderly).
 */
 
-var dogAge = 3;
+var dogAge = 7;
 // Write your conditional here
 if (dogAge <=2) {
   console.log('This dog is a puppy.');
 } else if (dogAge >=10){
   console.log('This dog is elderly.');
-}else{
+}else {
   console.log('This dog is an adult.');
 }
 
@@ -73,7 +73,7 @@ var numQuarters = 1;
 // Write your conditional here
 if (numQuarters >=2){
   console.log("I have enough money for a gumball.");
-} else{
+} else {
   console.log("I don't have enough money for a gumball.");
 }
 
@@ -97,7 +97,7 @@ var hasSauce = true;
 // Write your conditional here
 if (cupsOfFlour >= 2 && hasSauce){
   console.log ('I can make pizza!');
-} else{
+} else {
   console.log('I cannot make pizza.')
 }
 
@@ -105,6 +105,8 @@ if (cupsOfFlour >= 2 && hasSauce){
 For the last two exercises, an ideal solution probably uses a logical operator.
 Did yours? Do you know what a logical operator in JavaScript is? Google it to answer
 for yourself!
-+ I do have a rudimentary knowledge of the logical operators *&&* and *$$* and used a logical operator for the last exercise. I'm still thinking through how that would be an ideal solution for the next to last exercise and don't see it (yet). Always more to learn. Always Googling to learn more. 
++ I do have a rudimentary knowledge of the logical operators *&&* and *||* and used a logical operator for the last exercise.
+I'm still thinking through how that would be an ideal solution for the next to last exercise and don't see it (yet).
+It is now about a week or so later, and, as instructed in the Final Prep section of our Prework, I am going through and refactoring code. I still do not see how you would use a logical operator for the next to last exercise.
 
 */
