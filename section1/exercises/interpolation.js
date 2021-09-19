@@ -19,10 +19,10 @@ console.log(`The ${team} are ${name}'s favorite Quidditch team.`);
 var numberOfCreatures = 7;
 var creatures = "unicorns";
 
-console.log( `My zoo has ${numberOfCreatures} ${creatures}!`);
+console.log(`My zoo has ${numberOfCreatures} ${creatures}!`);
 
 // YOU DO: What data type will be logged to the console as a result of line 22? Explain.
-// Your answer and explanation here: This is an interpolation that, when run, will result in: My zoon has 7 unicorns! It's using the interpolation syntax of ${variable_name} rather than in a concatenation where each string or variable name would be connected with a +.
+// Your answer and explanation here: This is an interpolation that, when run, will result in the sentence: My zoon has 7 unicorns! It's using the interpolation syntax of ${variable_name} rather than in a concatenation where each string or variable name would be connected with a +.
 
 
 
@@ -49,13 +49,15 @@ console.log(`In a predictable result, the ${slowPoke} beat the ${speedy}!`)
 // Declare three variables, name/content/data type of your choice. Think carefully about what
   // you name the variables. Remember, the goal is to be concise but descriptive (it's a hard balance!)
   // Then, log out ONE sentence that incorporates all THREE variables uisng interpolation.
-  var heroine = "Hermione Granger of Gryffindor"
-  var gamePiece = "bludger"
-  var antagonist = "Draco Malfoy"
-  var disclaimer = "That got a bit violent, didn't it? But no worries, Draco lived to annoy another day. "
+var heroine = "Hermione Granger of Gryffindor"
+var gamePiece = "bludger"
+var antagonist = "Draco Malfoy"
 
-  console.log(`In our re-telling, ${heroine} snatched the ${gamePiece} as it whizzed by and heaved it at ${antagonist} whereupon it thunked him on the head, launching him from his broomstick.`)
-  console.log(disclaimer)
+console.log(`In our re-telling, ${heroine} snatched the ${gamePiece} as it whizzed by and heaved it at ${antagonist} whereupon it thunked him on the head, launching him from his broomstick.`)
+
+///And one more time for fun. 
+var disclaimer = "That got a bit violent, didn't it? But no worries, Draco lived to annoy another day. "
+console.log(disclaimer)
 
 //-------------------
 // FINAL CHECK
