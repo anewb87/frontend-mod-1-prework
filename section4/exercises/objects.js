@@ -143,6 +143,7 @@ var lunaLovegoodEmail = [
   }
 ]
 
-console.log(lunaLovegoodEmail[0]);
-console.log(lunaLovegoodEmail[1]);
-console.log(lunaLovegoodEmail[2])
+console.log(lunaLovegoodEmail)
+//console.log(lunaLovegoodEmail[0]);
+//console.log(lunaLovegoodEmail[1]);
+//console.log(lunaLovegoodEmail[2])

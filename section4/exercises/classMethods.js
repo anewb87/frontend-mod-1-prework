@@ -26,7 +26,9 @@ Make sure to run the file with node in your command line.
 
 // Call the `addTopping` method on two burritos, then log the burritos to verify
 // that the proteins have been changed.
-//Lexy Note- I'm assuming you want us to log the burritos to verify that the TOPPINGS have been changed since we already did the protein swap in the directions above.
+//Lexy Notes: I'm assuming you want us to log the burritos to verify that the TOPPINGS have been changed since we already did the protein swap in the directions above.
+//I was able add a method `addTopping` and had it accept a single string argument.
+//I hope it's ok- I went one step futher to see if I could make it more dynamic and add different additional toppings to the two burritos when I called the method `addTopping` to them. And it worked!
 
 class Burrito {
   constructor(protein, base, toppings) {

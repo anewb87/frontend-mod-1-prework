@@ -28,11 +28,10 @@ var harryPotter = new Tweet("Harry Potter", "Can anyone help me find that last H
 var ronWeasley = new Tweet("Ron Weasley", "Oi. What's the best way to launch a garden gnome?", "08/25/1996", 8,"Shotput those little devils!")
 
 harryPotter.addComment(" Look inside yourself, Harry.")
-console.log(harryPotter)
 ronWeasley.addComment(" Mahaha! Widdle Won-Won still has to clean Mom's garden gnomes.")
-console.log(ronWeasley)
 
 harryPotter.changeNumberOfLikes()
-console.log(harryPotter)
 ronWeasley.changeNumberOfLikes()
+
+console.log(harryPotter)
 console.log(ronWeasley)

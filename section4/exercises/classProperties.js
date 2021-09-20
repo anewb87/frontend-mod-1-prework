@@ -64,13 +64,13 @@ console.log(longSleeve)
 class Pup {
   constructor() {
     this.name = "Chula";
-    this.weight = "77 lbs";
+    this.weight = "20 lbs";
     this.age = 6;
   }
 };
 
-var germanShepherd = new Pup();
-console.log(germanShepherd)
+var beagle = new Pup();
+console.log(beagle)
 
 // Prompt 2: Snack
 class Morsel {
@@ -117,7 +117,7 @@ class Puppy {
     this.age = age
   }
 };
-var malamute = new Puppy("Lumos", "70 lbs", "2");
+var malamute = new Puppy("Lumos", "120 lbs", "2");
 var husky = new Puppy("Knox", "40 lbs", "4");
 console.log(malamute)
 console.log(husky)
