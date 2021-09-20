@@ -34,7 +34,7 @@ console.log(animals)
 
 
 //As far as I understand, *reassign* is telling me to SWAP OUT the last item from Elephant to Gorilla. So that's what I did.
-//If *reassign* is actually telling me to add Gorilla on the end, I would have done this:
+//If *reassign* is actually telling me to use a method to add Gorilla on the end, I would have done this:
 //var addGorilla = animals.push('Gorilla')
 //console.log(animals)
 //Perhaps what you meant was to get rid of the old by using `pop` and putting in the new with the `push` I wrote above.
@@ -45,14 +45,14 @@ console.log(animals)
 animals[3] = "Koala"
 console.log(animals)
 
-//I did this one two ways, checked them both, and they both seemed to work.
-//I don't believe the method I used above was in any of my reading, I just did it and it worked.
-//The method I used below works because position 3 would become the last position for this array. Before this exercise, there were only 2 positions (0, 1, 2) in this array. Consequently using `push` to create and end item works for the 3rd position.
+//I did this one two ways, checked them both, and they both worked.
+//I don't believe the method I used above was in any of my reading, I just did it and it worked. With an array, you don't need to specify how many values it will hold, so I can simply add this value of Koala to the 3rd index in this array even though it didn't previously have anything with an index of 3.
+//The method I used below also works (and might be the one you were indending us to utilize) because position 3 would become the last position for this array. Before this exercise, there were only 2 positions (0, 1, 2) in this array. Consequently using `push` to create an end item works for the 3rd position.
 //var addKoala = animals.push('Koala')
 //console.log(animals)
 
 // YOU DO: Write code that will log the String "Elephant" in the animals array
-//I got ride of *Elephant* in an above exercise when I was asked to reassign the last element (*Elephant*) to *Gorilla*.
+//I got rid of *Elephant* in an above exercise when I was asked to reassign the last element (*Elephant*) to *Gorilla*.
 //Consequntly, I need to add it back first and then write code that will log it.
 var addElephant = animals.push('Elephant')
 console.log(animals [4])
@@ -110,9 +110,9 @@ var posts = ["image at beach", "holiday party", "adorable puppy", "video of cute
 // may be storing data? Come up with 3 examples - they could be from different web applications or
 // all from the same one.
 
-// 1: eBay- Watching is a list of items that you've marked as ones you are keeping your eye on
-// 2: Masterclass- My Saved Lessons is a list of lessons that you marked for reference later
-// 3: Podcasts (that's the name of my podcast app)- Library is an array of arrays that contains lists of shows, saved, downloaded, latest episodes, etc- all of which are their own lists
+// 1: eBay- *Watching* is a list of items that you've marked as ones you are keeping your eye on
+// 2: Masterclass- *My Saved Lessons* is a list of lessons that you marked for reference later
+// 3: Podcasts (that's the name of my podcast app)- *Library* is an array of arrays that contains lists of shows, saved episodes, downloaded episodes, latest released episodes, etc- all of which are their own lists
 
 
 //-------------------
@@ -139,7 +139,7 @@ if (percentBatteryLeft >= 15){
 //I'm logging this information so that the person understands that they do have enough battery to call an Uber *if* the conditional above evaluates to `true`.
     console.log("Congratulations! You have enough battery to call an Uber. Get home safe now, ya hear?");
 //All is not lost if there isn't enough battery. The directions called for an even more complex *else if* statement. If condition 1 evaluated to `false`, there is still a way to call an Uber, so I needed a second condition that would show that.
-//Additionally, this is a logical AND operation- &&. The person needs to posess a charger and the charger needs to be one for a car. I need to use the *strictly equal* `===` comparison operator here so that it's comparing the variable to the value; not the `=` because that would reassign the variable's value right there.
+//Additionally, this is a logical AND operation- &&. The person needs to posess a charger AND the charger needs to be one for a car. I need to use the *strictly equal* `===` comparison operator here so that it's comparing the variable to the value; not the `=` because that would reassign the variable's value right there.
 } else if ((hasCharger === true) && (chargerType === "car")){
 //I'm logging this information again so that the person understands that they can still charge their phone since they've got the correct kind of charger with them.
     console.log("Congratulations! You might not have enough battery power currently, but you've got a car charger and can get some juice in that phone. Go ahead and call that Uber.")

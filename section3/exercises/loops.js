@@ -24,11 +24,10 @@ for (var i = 0; i < 3; i++) {
 
 // What is logged to the console for this second example? Why?
 // EXPLAIN:
-//The value of *i* is logged as 0, 1, 2. *i* is the index and acts as the counter.
-//The first *i* is telling the program which index to begin at. The second *i* is telling the program to run the values of the arrray until the value given.
-//The *i++* is an increment expression that telling the program to add one to the counter every time the statement is run.
+//The value of *i* is logged as 0, 1, 2. Since *i* is the index and acts as the counter, what's being logged is the value of the index.
+//The *i++* is an increment expression that telling the program to add one to the counter every time the statement is run; consequently, the numbers are increasing in value.
 
- // YOU DO: Write code below that logs to the console, the sum of 2 plus 2, 7 times:
+// YOU DO: Write code below that logs to the console, the sum of 2 plus 2, 7 times:
 for (var i = 0; i<7; i++){
   console.log(2 + 2)
 }
@@ -45,7 +44,7 @@ for (var i = 0; i<10; i++){
 
 // YOU DO: Write code below that logs to the console a String of "This is loop number: "
 //that concatenates with `i`.
-for (var i = 1; i<9; i++){
+for (var i = 0; i<9; i++){
   console.log("This is loop number: " + i)
 }
 
