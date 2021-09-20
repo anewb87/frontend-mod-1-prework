@@ -25,20 +25,28 @@ Take your time as you go back and refactor your exercises from each section. We'
 
 ### Time Management Prep
 In Mod 0 you've learned about different techniques for managing your time at Turing. Please create a calendar for your **first 3 weeks of Mod 1**. Feel free to make your calendar fit your style, but we suggest that your calendar should include the following:
-- [ ] Standard M1 class schedule (see M1 calendar [here](https://frontend.turing.io/today/))
-- [ ] Study/Project work time
-- [ ] Health + Wellness
+- [ ] Standard M1 class schedule (see M1 calendar [here](https://frontend.turing.io/today/)) *(Lexy's in grey/brown. Turing already has amazingly detailed calendars created for the Modules' classes. I plan to import this calendar into my own when it is ready. As of 9/17 it was not. This seems a much smarter and a better use of my time than assuming classes/subjects and their times based on past Turing calendars and then re-writing everything into my own. Since someone is going to do that already, and since it will be the official and true calendar, I've blocked off class time in the grey/brown color and will change that as soon as the Turing calendar for my cohort is published.)*
+- [ ] Study/Project work time *(Lexy's in yellow with grey/brown edge indicating it's specifically Mod 1)*
+- [ ] Health + Wellness *(Lexy's in blue)*
 
 When you are finished, add screenshots of your calendar so we can provide feedback if needed!
 
 - `Add Week 1 Screenshot Here`
+<img width="1440" alt="Week 1 Screenshot" src="https://user-images.githubusercontent.com/89421307/133818086-f035b418-2854-4459-bdd2-0fc646bc83ef.png">
+
+
 - `Add Week 2 Screenshot Here`
+<img width="1440" alt="Week 2 Screenshot" src="https://user-images.githubusercontent.com/89421307/133818109-24e937a2-ee89-42be-b102-809cec6bfac8.png">
+
+
 - `Add Week 3 Screenshot Here`
+<img width="1440" alt="Week 3 Screenshot" src="https://user-images.githubusercontent.com/89421307/133818119-f4293deb-b366-43b9-901b-cec0665d5ae8.png">
+
 
 ### Mentorship Prep
 Mentorship is an integral part of the Turing experience and will help jumpstart your technical career. In order to get your mentor relationship started on the right foot, please complete the following deliverables:
 - [ ] Complete the [Mentorship DTR Prep](https://gist.github.com/ericweissman/51965bdcbf42970d43d817818bfaef3c)
-  - [ ] Add link to your gist here: 
+  - [ ] Add link to your gist here: https://gist.github.com/anewb87/d6a81c4ce472f434db5064439081b1cb
 
 ### Lesson Prep
 You've learned a lot about how to take strong notes during Mod 0. Show us your skills while you learn how to pre-teach content for your first lesson in Mod 1!
@@ -48,7 +56,7 @@ You've learned a lot about how to take strong notes during Mod 0. Show us your s
 ### Group Work Prep
 As part of Turing's project-based learning approach, you will often be working in pairs or larger groups. In order to set yourself (and your team) up for success, it is important to ensure you are prepared to be an equitable contributor and teammate.
 - [ ] Complete the [DTR Guiding Questions](https://gist.github.com/ericweissman/c56f3a98cdce761808c21d498a52f5c6)
-  - [ ] Add a link to your gist here: 
+  - [ ] Add a link to your gist here: https://gist.github.com/anewb87/d22d956ff8e8d6bf3443b06dcf831a69
 
 ## All Done? How to Submit your M1 Prework
 When you have completed *ALL* the activities described above, follow the steps below to submit your technical prework.
